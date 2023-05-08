@@ -1,3 +1,9 @@
+name : self-hosted-mac-pro
+
+on:
+  push:
+    branches: [ master ]
+
 jobs:
   build:
     runs-on: self-hosted
